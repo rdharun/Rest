@@ -15,7 +15,6 @@ public class ApiTestingWithRestAssured {
         System.out.println(body.asPrettyString());
         System.out.println("StatusCode " + statusCode);
     }
-
     @Test
     public void fetchAndLog() {
         // Specify the URL for the API call
